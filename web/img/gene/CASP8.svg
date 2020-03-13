@@ -1,0 +1,19 @@
+<?xml version='1.0'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="430.000000" height="111.000000">
+<defs>
+  <filter id="ds" x="0" y="0">
+    <feOffset in="SourceAlpha" dx="2" dy="2" />
+    <feComponentTransfer><feFuncA type="linear" slope="0.2"/></feComponentTransfer>
+    <feGaussianBlur result="blurOut" stdDeviation="1" />
+    <feBlend in="SourceGraphic" in2="blurOut" mode="normal" />
+  </filter>
+  <pattern id="disordered-hatch" patternUnits="userSpaceOnUse" width="4" height="4">
+    <path d="M-1,1 l2,-2 M0,4 l4,-4 M3,5 l2,-2" stroke="#000000" opacity="0.3" />
+  </pattern>
+</defs>
+<line x1="357.379958" x2="357.379958" y1="34.000000" y2="62.000000" stroke="#BABDB6" stroke-width="2"/><a xlink:title="p.V410Pfs"><circle cx="357.379958" cy="34.000000" r="4.000000" fill="#ff0000" /></a><g transform="translate(357.379958,34.000000) rotate(-30)"><text style="font-size:10px;fill:#555;" text-anchor="middle" x="0" y="-6.000000">p.V410Pfs</text></g><a xlink:title="CASP8_HUMAN, Caspase-8 EC=3.4.22.61 (479aa)"><rect fill="#BABDB6" x="15.000000" y="62.000000" width="400.000000" height="14.000000"/></a><g transform="translate(17.505219,57.000000)"><a xlink:href="http://pfam.xfam.org/family/PF01335" xlink:title="Death effector domain"><rect fill="#2dcf00" x="0" y="0" width="67.640919" height="24.000000" filter="url(#ds)"/><text style="font-size:12px;fill:#ffffff;" text-anchor="middle" x="33.820459" y="16.000000">DED</text></a></g>
+<g transform="translate(99.342380,57.000000)"><a xlink:href="http://pfam.xfam.org/family/PF01335" xlink:title="Death effector domain"><rect fill="#2dcf00" x="0" y="0" width="65.970772" height="24.000000" filter="url(#ds)"/><text style="font-size:12px;fill:#ffffff;" text-anchor="middle" x="32.985386" y="16.000000">DED</text></a></g>
+<g transform="translate(210.407098,57.000000)"><a xlink:href="http://pfam.xfam.org/family/PF00656" xlink:title="Caspase domain"><rect fill="#ff5353" x="0" y="0" width="202.087683" height="24.000000" filter="url(#ds)"/><text style="font-size:12px;fill:#ffffff;" text-anchor="middle" x="101.043841" y="16.000000">Caspase domain</text></a></g>
+<g class="axis">
+<line x1="15.000000" x2="415.000000" y1="91.000000" y2="91.000000" stroke="#AAAAAA" /><line x1="15.000000" x2="15.000000" y1="91.000000" y2="96.000000" stroke="#AAAAAA" /><line x1="17.505219" x2="17.505219" y1="91.000000" y2="96.000000" stroke="#AAAAAA" /><text style="font-size:10px;fill:#000000;" text-anchor="middle" x="17.505219" y="106.000000">3</text><line x1="85.146138" x2="85.146138" y1="91.000000" y2="96.000000" stroke="#AAAAAA" /><text style="font-size:10px;fill:#000000;" text-anchor="middle" x="85.146138" y="106.000000">84</text><line x1="165.313152" x2="165.313152" y1="91.000000" y2="96.000000" stroke="#AAAAAA" /><text style="font-size:10px;fill:#000000;" text-anchor="middle" x="165.313152" y="106.000000">180</text><line x1="210.407098" x2="210.407098" y1="91.000000" y2="96.000000" stroke="#AAAAAA" /><text style="font-size:10px;fill:#000000;" text-anchor="middle" x="210.407098" y="106.000000">234</text><line x1="357.379958" x2="357.379958" y1="91.000000" y2="96.000000" stroke="#AAAAAA" /><text style="font-size:10px;fill:#000000;" text-anchor="middle" x="357.379958" y="106.000000">410</text><line x1="415.000000" x2="415.000000" y1="91.000000" y2="96.000000" stroke="#AAAAAA" /><text style="font-size:10px;fill:#000000;" text-anchor="middle" x="415.000000" y="106.000000">479</text></g>
+</svg>

@@ -1,0 +1,18 @@
+<?xml version='1.0'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="430.000000" height="111.000000">
+<defs>
+  <filter id="ds" x="0" y="0">
+    <feOffset in="SourceAlpha" dx="2" dy="2" />
+    <feComponentTransfer><feFuncA type="linear" slope="0.2"/></feComponentTransfer>
+    <feGaussianBlur result="blurOut" stdDeviation="1" />
+    <feBlend in="SourceGraphic" in2="blurOut" mode="normal" />
+  </filter>
+  <pattern id="disordered-hatch" patternUnits="userSpaceOnUse" width="4" height="4">
+    <path d="M-1,1 l2,-2 M0,4 l4,-4 M3,5 l2,-2" stroke="#000000" opacity="0.3" />
+  </pattern>
+</defs>
+<line x1="351.757301" x2="351.757301" y1="34.000000" y2="62.000000" stroke="#BABDB6" stroke-width="2"/><a xlink:title="p.I836del"><circle cx="351.757301" cy="34.000000" r="4.000000" fill="#ff0000" /></a><g transform="translate(351.757301,34.000000) rotate(-30)"><text style="font-size:10px;fill:#555;" text-anchor="middle" x="0" y="-6.000000">p.I836del</text></g><a xlink:title="FLT3_HUMAN, Receptor-type tyrosine-protein kinase FLT3 EC=2.7.10.1 (993aa)"><rect fill="#BABDB6" x="15.000000" y="62.000000" width="400.000000" height="14.000000"/></a><g transform="translate(117.719033,57.000000)"><a xlink:href="http://pfam.xfam.org/family/PF00047" xlink:title="Immunoglobulin domain"><rect fill="#2dcf00" x="0" y="0" width="36.253776" height="24.000000" filter="url(#ds)"/><text style="font-size:12px;fill:#ffffff;" text-anchor="middle" x="18.126888" y="16.000000">ig</text></a></g>
+<g transform="translate(260.720040,57.000000)"><a xlink:href="http://pfam.xfam.org/family/PF07714" xlink:title="Protein tyrosine kinase"><rect fill="#ff5353" x="0" y="0" width="134.138973" height="24.000000" filter="url(#ds)"/><text style="font-size:12px;fill:#ffffff;" text-anchor="middle" x="67.069486" y="16.000000">Pkinase_Tyr</text></a></g>
+<g class="axis">
+<line x1="15.000000" x2="415.000000" y1="91.000000" y2="91.000000" stroke="#AAAAAA" /><line x1="15.000000" x2="15.000000" y1="91.000000" y2="96.000000" stroke="#AAAAAA" /><line x1="15.000000" x2="15.000000" y1="91.000000" y2="96.000000" stroke="#AAAAAA" /><text style="font-size:10px;fill:#000000;" text-anchor="middle" x="15.000000" y="106.000000">0</text><line x1="117.719033" x2="117.719033" y1="91.000000" y2="96.000000" stroke="#AAAAAA" /><text style="font-size:10px;fill:#000000;" text-anchor="middle" x="117.719033" y="106.000000">255</text><line x1="153.972810" x2="153.972810" y1="91.000000" y2="96.000000" stroke="#AAAAAA" /><text style="font-size:10px;fill:#000000;" text-anchor="middle" x="153.972810" y="106.000000">345</text><line x1="260.720040" x2="260.720040" y1="91.000000" y2="96.000000" stroke="#AAAAAA" /><text style="font-size:10px;fill:#000000;" text-anchor="middle" x="260.720040" y="106.000000">610</text><line x1="351.757301" x2="351.757301" y1="91.000000" y2="96.000000" stroke="#AAAAAA" /><text style="font-size:10px;fill:#000000;" text-anchor="middle" x="351.757301" y="106.000000">836</text><line x1="394.859013" x2="394.859013" y1="91.000000" y2="96.000000" stroke="#AAAAAA" /><text style="font-size:10px;fill:#000000;" text-anchor="middle" x="394.859013" y="106.000000">943</text><line x1="415.000000" x2="415.000000" y1="91.000000" y2="96.000000" stroke="#AAAAAA" /><text style="font-size:10px;fill:#000000;" text-anchor="middle" x="415.000000" y="106.000000">993</text></g>
+</svg>

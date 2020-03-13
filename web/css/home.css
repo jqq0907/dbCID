@@ -1,0 +1,77 @@
+body {
+	 background-color:#eee;
+	}
+
+#banner {
+	background: url(../img/Header.jpg);
+	height: 180px;
+	background-size: cover;
+}
+
+#bar {
+	/*background-color: #01AAED;
+				height: 30px;*/
+}
+
+#navbar {
+	background-color: #393D49;
+}
+
+#navbar .layui-nav-item {
+	line-height: 40px;
+}
+
+#bodyer {
+	margin:0 10px;
+	padding:0 15px;
+/* margin-bottom:60px; */
+zoom: 1;
+    overflow: -webkit-paged-x;
+}
+
+#panel-left {
+	/*background-color: aliceblue;*/
+	/* height: 768px; */
+}
+
+#panel-right {
+	/*background-color: chartreuse;*/
+	/* height: 768px; */
+	/* margin-top:20px; */
+	padding-left:10px;
+}
+
+#overview {
+	/* height: 300px; */
+	/* background-color: #1E9FFF; */
+}
+
+#browse {
+	height: 468px;
+	/* background-color: aquamarine; */
+}
+
+#footer {
+	/* background-color: #666666; */
+	max-width: 1366px;
+	width: 61.8%;
+	min-width: 960px;
+	/* position:fixed; */
+	bottom: 0px;
+	left: 0px;
+	color: rgba(0, 0, 0, 0.71);
+	font-size: 90%;
+	margin: 20px auto;
+}
+
+.link,
+.copyright,
+.use {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.ow {
+	color: rgb(0, 0, 0);
+	text-decoration: underline;
+}

@@ -1,0 +1,18 @@
+<?xml version='1.0'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="464.875000" height="123.500000">
+<defs>
+  <filter id="ds" x="0" y="0">
+    <feOffset in="SourceAlpha" dx="2" dy="2" />
+    <feComponentTransfer><feFuncA type="linear" slope="0.2"/></feComponentTransfer>
+    <feGaussianBlur result="blurOut" stdDeviation="1" />
+    <feBlend in="SourceGraphic" in2="blurOut" mode="normal" />
+  </filter>
+  <pattern id="disordered-hatch" patternUnits="userSpaceOnUse" width="4" height="4">
+    <path d="M-1,1 l2,-2 M0,4 l4,-4 M3,5 l2,-2" stroke="#000000" opacity="0.3" />
+  </pattern>
+</defs>
+<line x1="441.000000" x2="441.000000" y1="34.000000" y2="74.500000" stroke="#BABDB6" stroke-width="2"/><a xlink:title="p.W288Cfs"><circle cx="441.000000" cy="34.000000" r="4.000000" fill="#ff0000" /></a><g transform="translate(441.000000,34.000000) rotate(-30)"><text style="font-size:10px;fill:#555;" text-anchor="middle" x="0" y="-6.000000">p.W288Cfs</text></g><line x1="441.000000" x2="441.000000" y1="46.500000" y2="74.500000" stroke="#BABDB6" stroke-width="2"/><a xlink:title="p.W288fs"><circle cx="441.000000" cy="46.500000" r="4.000000" fill="#ff0000" /></a><g transform="translate(441.000000,46.500000) rotate(-30)"><text style="font-size:10px;fill:#555;" text-anchor="middle" x="0" y="-6.000000">p.W288fs</text></g><a xlink:title="NPM_HUMAN, Nucleophosmin (294aa)"><rect fill="#BABDB6" x="15.000000" y="74.500000" width="434.875000" height="14.000000"/></a><g transform="translate(40.145833,69.500000)"><a xlink:href="http://pfam.xfam.org/family/PF03066" xlink:title="Nucleoplasmin/nucleophosmin domain"><rect fill="#2dcf00" x="0" y="0" width="147.916667" height="24.000000" filter="url(#ds)"/><text style="font-size:12px;fill:#ffffff;" text-anchor="middle" x="73.958333" y="16.000000">Nucleoplasmin</text></a></g>
+<g transform="translate(377.395833,69.500000)"><a xlink:href="http://pfam.xfam.org/family/PF16276" xlink:title="Nucleophosmin C-terminal domain"><rect fill="#ff5353" x="0" y="0" width="71.000000" height="24.000000" filter="url(#ds)"/><text style="font-size:12px;fill:#ffffff;" text-anchor="middle" x="35.500000" y="16.000000">NPM1-C</text></a></g>
+<g class="axis">
+<line x1="15.000000" x2="449.875000" y1="103.500000" y2="103.500000" stroke="#AAAAAA" /><line x1="15.000000" x2="15.000000" y1="103.500000" y2="108.500000" stroke="#AAAAAA" /><line x1="15.000000" x2="15.000000" y1="103.500000" y2="108.500000" stroke="#AAAAAA" /><text style="font-size:10px;fill:#000000;" text-anchor="middle" x="15.000000" y="118.500000">0</text><line x1="40.145833" x2="40.145833" y1="103.500000" y2="108.500000" stroke="#AAAAAA" /><text style="font-size:10px;fill:#000000;" text-anchor="middle" x="40.145833" y="118.500000">17</text><line x1="188.062500" x2="188.062500" y1="103.500000" y2="108.500000" stroke="#AAAAAA" /><text style="font-size:10px;fill:#000000;" text-anchor="middle" x="188.062500" y="118.500000">117</text><line x1="377.395833" x2="377.395833" y1="103.500000" y2="108.500000" stroke="#AAAAAA" /><text style="font-size:10px;fill:#000000;" text-anchor="middle" x="377.395833" y="118.500000">245</text><line x1="449.875000" x2="449.875000" y1="103.500000" y2="108.500000" stroke="#AAAAAA" /><text style="font-size:10px;fill:#000000;" text-anchor="middle" x="449.875000" y="118.500000">294</text></g>
+</svg>

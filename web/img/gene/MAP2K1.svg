@@ -1,0 +1,17 @@
+<?xml version='1.0'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="430.000000" height="136.000000">
+<defs>
+  <filter id="ds" x="0" y="0">
+    <feOffset in="SourceAlpha" dx="2" dy="2" />
+    <feComponentTransfer><feFuncA type="linear" slope="0.2"/></feComponentTransfer>
+    <feGaussianBlur result="blurOut" stdDeviation="1" />
+    <feBlend in="SourceGraphic" in2="blurOut" mode="normal" />
+  </filter>
+  <pattern id="disordered-hatch" patternUnits="userSpaceOnUse" width="4" height="4">
+    <path d="M-1,1 l2,-2 M0,4 l4,-4 M3,5 l2,-2" stroke="#000000" opacity="0.3" />
+  </pattern>
+</defs>
+<line x1="71.997455" x2="71.997455" y1="34.000000" y2="87.000000" stroke="#BABDB6" stroke-width="2"/><a xlink:title="p.Q56_V60del"><circle cx="71.997455" cy="34.000000" r="4.000000" fill="#0000ff" /></a><g transform="translate(71.997455,34.000000) rotate(-30)"><text style="font-size:10px;fill:#555;" text-anchor="middle" x="0" y="-6.000000">p.Q56_V60del</text></g><line x1="74.033079" x2="74.033079" y1="46.500000" y2="87.000000" stroke="#BABDB6" stroke-width="2"/><a xlink:title="p.Q58_E62del"><circle cx="74.033079" cy="46.500000" r="4.000000" fill="#0000ff" /></a><g transform="translate(74.033079,46.500000) rotate(-30)"><text style="font-size:10px;fill:#555;" text-anchor="middle" x="0" y="-6.000000">p.Q58_E62del</text></g><line x1="75.050891" x2="75.050891" y1="59.000000" y2="87.000000" stroke="#BABDB6" stroke-width="2"/><a xlink:title="p.K59del"><circle cx="75.050891" cy="59.000000" r="4.000000" fill="#ff0000" /></a><g transform="translate(75.050891,59.000000) rotate(-30)"><text style="font-size:10px;fill:#555;" text-anchor="middle" x="0" y="-6.000000">p.K59del</text></g><a xlink:title="MP2K1_HUMAN, Dual specificity mitogen-activated protein kinase kinase 1 EC=2.7.12.2 (393aa)"><rect fill="#BABDB6" x="15.000000" y="87.000000" width="400.000000" height="14.000000"/></a><g transform="translate(84.211196,82.000000)"><a xlink:href="http://pfam.xfam.org/family/PF00069" xlink:title="Protein kinase domain"><rect fill="#2dcf00" x="0" y="0" width="298.218830" height="24.000000" filter="url(#ds)"/><text style="font-size:12px;fill:#ffffff;" text-anchor="middle" x="149.109415" y="16.000000">Protein kinase domain</text></a></g>
+<g class="axis">
+<line x1="15.000000" x2="415.000000" y1="116.000000" y2="116.000000" stroke="#AAAAAA" /><line x1="15.000000" x2="15.000000" y1="116.000000" y2="121.000000" stroke="#AAAAAA" /><line x1="15.000000" x2="15.000000" y1="116.000000" y2="121.000000" stroke="#AAAAAA" /><text style="font-size:10px;fill:#000000;" text-anchor="middle" x="15.000000" y="131.000000">0</text><line x1="71.997455" x2="71.997455" y1="116.000000" y2="121.000000" stroke="#AAAAAA" /><text style="font-size:10px;fill:#000000;" text-anchor="middle" x="71.997455" y="131.000000">56</text><line x1="382.430025" x2="382.430025" y1="116.000000" y2="121.000000" stroke="#AAAAAA" /><text style="font-size:10px;fill:#000000;" text-anchor="middle" x="382.430025" y="131.000000">361</text><line x1="415.000000" x2="415.000000" y1="116.000000" y2="121.000000" stroke="#AAAAAA" /><text style="font-size:10px;fill:#000000;" text-anchor="middle" x="415.000000" y="131.000000">393</text></g>
+</svg>

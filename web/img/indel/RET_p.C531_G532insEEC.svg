@@ -1,0 +1,18 @@
+<?xml version='1.0'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1156.377778" height="111.000000">
+<defs>
+  <filter id="ds" x="0" y="0">
+    <feOffset in="SourceAlpha" dx="2" dy="2" />
+    <feComponentTransfer><feFuncA type="linear" slope="0.2"/></feComponentTransfer>
+    <feGaussianBlur result="blurOut" stdDeviation="1" />
+    <feBlend in="SourceGraphic" in2="blurOut" mode="normal" />
+  </filter>
+  <pattern id="disordered-hatch" patternUnits="userSpaceOnUse" width="4" height="4">
+    <path d="M-1,1 l2,-2 M0,4 l4,-4 M3,5 l2,-2" stroke="#000000" opacity="0.3" />
+  </pattern>
+</defs>
+<line x1="551.900000" x2="551.900000" y1="34.000000" y2="62.000000" stroke="#BABDB6" stroke-width="2"/><a xlink:title="p.C531_G532insEEC"><circle cx="551.900000" cy="34.000000" r="4.000000" fill="#0000ff" /></a><g transform="translate(551.900000,34.000000) rotate(-30)"><text style="font-size:10px;fill:#555;" text-anchor="middle" x="0" y="-6.000000">p.C531_G532insEEC</text></g><a xlink:title="RET_HUMAN, Proto-oncogene tyrosine-protein kinase receptor Ret EC=2.7.10.1 (1114aa)"><rect fill="#BABDB6" x="15.000000" y="62.000000" width="1126.377778" height="14.000000"/></a><g transform="translate(188.911111,57.000000)"><a xlink:href="http://pfam.xfam.org/family/PF00028" xlink:title="Cadherin domain"><rect fill="#2dcf00" x="0" y="0" width="91.000000" height="24.000000" filter="url(#ds)"/><text style="font-size:12px;fill:#ffffff;" text-anchor="middle" x="45.500000" y="16.000000">Cadherin</text></a></g>
+<g transform="translate(747.044444,57.000000)"><a xlink:href="http://pfam.xfam.org/family/PF07714" xlink:title="Protein tyrosine kinase"><rect fill="#ff5353" x="0" y="0" width="284.122222" height="24.000000" filter="url(#ds)"/><text style="font-size:12px;fill:#ffffff;" text-anchor="middle" x="142.061111" y="16.000000">Protein tyrosine kinase</text></a></g>
+<g class="axis">
+<line x1="15.000000" x2="1141.377778" y1="91.000000" y2="91.000000" stroke="#AAAAAA" /><line x1="15.000000" x2="15.000000" y1="91.000000" y2="96.000000" stroke="#AAAAAA" /><line x1="15.000000" x2="15.000000" y1="91.000000" y2="96.000000" stroke="#AAAAAA" /><text style="font-size:10px;fill:#000000;" text-anchor="middle" x="15.000000" y="106.000000">0</text><line x1="188.911111" x2="188.911111" y1="91.000000" y2="96.000000" stroke="#AAAAAA" /><text style="font-size:10px;fill:#000000;" text-anchor="middle" x="188.911111" y="106.000000">172</text><line x1="279.911111" x2="279.911111" y1="91.000000" y2="96.000000" stroke="#AAAAAA" /><text style="font-size:10px;fill:#000000;" text-anchor="middle" x="279.911111" y="106.000000">262</text><line x1="551.900000" x2="551.900000" y1="91.000000" y2="96.000000" stroke="#AAAAAA" /><text style="font-size:10px;fill:#000000;" text-anchor="middle" x="551.900000" y="106.000000">531</text><line x1="747.044444" x2="747.044444" y1="91.000000" y2="96.000000" stroke="#AAAAAA" /><text style="font-size:10px;fill:#000000;" text-anchor="middle" x="747.044444" y="106.000000">724</text><line x1="1031.166667" x2="1031.166667" y1="91.000000" y2="96.000000" stroke="#AAAAAA" /><text style="font-size:10px;fill:#000000;" text-anchor="middle" x="1031.166667" y="106.000000">1005</text><line x1="1141.377778" x2="1141.377778" y1="91.000000" y2="96.000000" stroke="#AAAAAA" /><text style="font-size:10px;fill:#000000;" text-anchor="middle" x="1141.377778" y="106.000000">1114</text></g>
+</svg>

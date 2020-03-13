@@ -1,0 +1,17 @@
+<?xml version='1.0'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="430.000000" height="111.000000">
+<defs>
+  <filter id="ds" x="0" y="0">
+    <feOffset in="SourceAlpha" dx="2" dy="2" />
+    <feComponentTransfer><feFuncA type="linear" slope="0.2"/></feComponentTransfer>
+    <feGaussianBlur result="blurOut" stdDeviation="1" />
+    <feBlend in="SourceGraphic" in2="blurOut" mode="normal" />
+  </filter>
+  <pattern id="disordered-hatch" patternUnits="userSpaceOnUse" width="4" height="4">
+    <path d="M-1,1 l2,-2 M0,4 l4,-4 M3,5 l2,-2" stroke="#000000" opacity="0.3" />
+  </pattern>
+</defs>
+<line x1="133.043845" x2="133.043845" y1="34.000000" y2="62.000000" stroke="#BABDB6" stroke-width="2"/><a xlink:title="p.Q350Hfs"><circle cx="133.043845" cy="34.000000" r="4.000000" fill="#ff0000" /></a><g transform="translate(133.043845,34.000000) rotate(-30)"><text style="font-size:10px;fill:#555;" text-anchor="middle" x="0" y="-6.000000">p.Q350Hfs</text></g><a xlink:title="PALB2_HUMAN, Partner and localizer of BRCA2 (1186aa)"><rect fill="#BABDB6" x="15.000000" y="62.000000" width="400.000000" height="14.000000"/></a><g transform="translate(297.293423,57.000000)"><a xlink:href="http://pfam.xfam.org/family/PF16756" xlink:title="Partner and localizer of BRCA2 WD40 domain"><rect fill="#2dcf00" x="0" y="0" width="117.032040" height="24.000000" filter="url(#ds)"/><text style="font-size:12px;fill:#ffffff;" text-anchor="middle" x="58.516020" y="16.000000">PALB2_WD40</text></a></g>
+<g class="axis">
+<line x1="15.000000" x2="415.000000" y1="91.000000" y2="91.000000" stroke="#AAAAAA" /><line x1="15.000000" x2="15.000000" y1="91.000000" y2="96.000000" stroke="#AAAAAA" /><line x1="15.000000" x2="15.000000" y1="91.000000" y2="96.000000" stroke="#AAAAAA" /><text style="font-size:10px;fill:#000000;" text-anchor="middle" x="15.000000" y="106.000000">0</text><line x1="133.043845" x2="133.043845" y1="91.000000" y2="96.000000" stroke="#AAAAAA" /><text style="font-size:10px;fill:#000000;" text-anchor="middle" x="133.043845" y="106.000000">350</text><line x1="297.293423" x2="297.293423" y1="91.000000" y2="96.000000" stroke="#AAAAAA" /><text style="font-size:10px;fill:#000000;" text-anchor="middle" x="297.293423" y="106.000000">837</text><line x1="415.000000" x2="415.000000" y1="91.000000" y2="96.000000" stroke="#AAAAAA" /><text style="font-size:10px;fill:#000000;" text-anchor="middle" x="415.000000" y="106.000000">1186</text></g>
+</svg>

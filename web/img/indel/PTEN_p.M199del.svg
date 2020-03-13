@@ -1,0 +1,18 @@
+<?xml version='1.0'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="430.000000" height="111.000000">
+<defs>
+  <filter id="ds" x="0" y="0">
+    <feOffset in="SourceAlpha" dx="2" dy="2" />
+    <feComponentTransfer><feFuncA type="linear" slope="0.2"/></feComponentTransfer>
+    <feGaussianBlur result="blurOut" stdDeviation="1" />
+    <feBlend in="SourceGraphic" in2="blurOut" mode="normal" />
+  </filter>
+  <pattern id="disordered-hatch" patternUnits="userSpaceOnUse" width="4" height="4">
+    <path d="M-1,1 l2,-2 M0,4 l4,-4 M3,5 l2,-2" stroke="#000000" opacity="0.3" />
+  </pattern>
+</defs>
+<line x1="212.518610" x2="212.518610" y1="34.000000" y2="62.000000" stroke="#BABDB6" stroke-width="2"/><a xlink:title="p.M199del"><circle cx="212.518610" cy="34.000000" r="4.000000" fill="#ff0000" /></a><g transform="translate(212.518610,34.000000) rotate(-30)"><text style="font-size:10px;fill:#555;" text-anchor="middle" x="0" y="-6.000000">p.M199del</text></g><a xlink:title="PTEN_HUMAN, Phosphatidylinositol 3,4,5-trisphosphate 3-phosphatase and dual-specificity protein phosphatase PTEN EC=3.1.3.16 EC=3.1.3.48 EC=3.1.3.67 (403aa)"><rect fill="#BABDB6" x="15.000000" y="62.000000" width="400.000000" height="14.000000"/></a><g transform="translate(81.501241,57.000000)"><a xlink:href="http://pfam.xfam.org/family/PF00782" xlink:title="Dual specificity phosphatase, catalytic domain"><rect fill="#2dcf00" x="0" y="0" width="105.210918" height="24.000000" filter="url(#ds)"/><text style="font-size:12px;fill:#ffffff;" text-anchor="middle" x="52.605459" y="16.000000">DSPc</text></a></g>
+<g transform="translate(201.600496,57.000000)"><a xlink:href="http://pfam.xfam.org/family/PF10409" xlink:title="C2 domain of PTEN tumour-suppressor protein"><rect fill="#ff5353" x="0" y="0" width="159.801489" height="24.000000" filter="url(#ds)"/><text style="font-size:12px;fill:#ffffff;" text-anchor="middle" x="79.900744" y="16.000000">PTEN_C2</text></a></g>
+<g class="axis">
+<line x1="15.000000" x2="415.000000" y1="91.000000" y2="91.000000" stroke="#AAAAAA" /><line x1="15.000000" x2="15.000000" y1="91.000000" y2="96.000000" stroke="#AAAAAA" /><line x1="15.000000" x2="15.000000" y1="91.000000" y2="96.000000" stroke="#AAAAAA" /><text style="font-size:10px;fill:#000000;" text-anchor="middle" x="15.000000" y="106.000000">0</text><line x1="81.501241" x2="81.501241" y1="91.000000" y2="96.000000" stroke="#AAAAAA" /><text style="font-size:10px;fill:#000000;" text-anchor="middle" x="81.501241" y="106.000000">67</text><line x1="186.712159" x2="186.712159" y1="91.000000" y2="96.000000" stroke="#AAAAAA" /><text style="font-size:10px;fill:#000000;" text-anchor="middle" x="186.712159" y="106.000000">173</text><line x1="212.518610" x2="212.518610" y1="91.000000" y2="96.000000" stroke="#AAAAAA" /><text style="font-size:10px;fill:#000000;" text-anchor="middle" x="212.518610" y="106.000000">199</text><line x1="361.401985" x2="361.401985" y1="91.000000" y2="96.000000" stroke="#AAAAAA" /><text style="font-size:10px;fill:#000000;" text-anchor="middle" x="361.401985" y="106.000000">349</text><line x1="415.000000" x2="415.000000" y1="91.000000" y2="96.000000" stroke="#AAAAAA" /><text style="font-size:10px;fill:#000000;" text-anchor="middle" x="415.000000" y="106.000000">403</text></g>
+</svg>

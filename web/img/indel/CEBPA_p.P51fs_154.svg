@@ -1,0 +1,17 @@
+<?xml version='1.0'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="509.584906" height="111.000000">
+<defs>
+  <filter id="ds" x="0" y="0">
+    <feOffset in="SourceAlpha" dx="2" dy="2" />
+    <feComponentTransfer><feFuncA type="linear" slope="0.2"/></feComponentTransfer>
+    <feGaussianBlur result="blurOut" stdDeviation="1" />
+    <feBlend in="SourceGraphic" in2="blurOut" mode="normal" />
+  </filter>
+  <pattern id="disordered-hatch" patternUnits="userSpaceOnUse" width="4" height="4">
+    <path d="M-1,1 l2,-2 M0,4 l4,-4 M3,5 l2,-2" stroke="#000000" opacity="0.3" />
+  </pattern>
+</defs>
+<line x1="83.320755" x2="83.320755" y1="34.000000" y2="62.000000" stroke="#BABDB6" stroke-width="2"/><a xlink:title="p.P51fs*154"><circle cx="83.320755" cy="34.000000" r="4.000000" fill="#ff0000" /></a><g transform="translate(83.320755,34.000000) rotate(-30)"><text style="font-size:10px;fill:#555;" text-anchor="middle" x="0" y="-6.000000">p.P51fs*154</text></g><a xlink:title="CEBPA_HUMAN, CCAAT/enhancer-binding protein alpha {ECO:0000312|HGNC:HGNC:1833} (358aa)"><rect fill="#BABDB6" x="15.000000" y="62.000000" width="479.584906" height="14.000000"/></a><g transform="translate(391.433962,57.000000)"><a xlink:href="http://pfam.xfam.org/family/PF07716" xlink:title="Basic region leucine zipper"><rect fill="#2dcf00" x="0" y="0" width="71.000000" height="24.000000" filter="url(#ds)"/><text style="font-size:12px;fill:#ffffff;" text-anchor="middle" x="35.500000" y="16.000000">bZIP_2</text></a></g>
+<g class="axis">
+<line x1="15.000000" x2="494.584906" y1="91.000000" y2="91.000000" stroke="#AAAAAA" /><line x1="15.000000" x2="15.000000" y1="91.000000" y2="96.000000" stroke="#AAAAAA" /><line x1="15.000000" x2="15.000000" y1="91.000000" y2="96.000000" stroke="#AAAAAA" /><text style="font-size:10px;fill:#000000;" text-anchor="middle" x="15.000000" y="106.000000">0</text><line x1="83.320755" x2="83.320755" y1="91.000000" y2="96.000000" stroke="#AAAAAA" /><text style="font-size:10px;fill:#000000;" text-anchor="middle" x="83.320755" y="106.000000">51</text><line x1="391.433962" x2="391.433962" y1="91.000000" y2="96.000000" stroke="#AAAAAA" /><text style="font-size:10px;fill:#000000;" text-anchor="middle" x="391.433962" y="106.000000">281</text><line x1="462.433962" x2="462.433962" y1="91.000000" y2="96.000000" stroke="#AAAAAA" /><text style="font-size:10px;fill:#000000;" text-anchor="middle" x="462.433962" y="106.000000">334</text><line x1="494.584906" x2="494.584906" y1="91.000000" y2="96.000000" stroke="#AAAAAA" /><text style="font-size:10px;fill:#000000;" text-anchor="middle" x="494.584906" y="106.000000">358</text></g>
+</svg>
